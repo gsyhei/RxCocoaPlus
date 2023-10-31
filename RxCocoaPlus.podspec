@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/gsyhei/RxCocoaPlus.git", :tag => "1.0.0" }
   s.requires_arc  = true
   s.source_files  = "RxCocoaPlus"
-  s.frameworks    = "UIKit","AppKit"
+  s.frameworks    = "UIKit"
   s.dependency  'RxCocoa'
 
 end
